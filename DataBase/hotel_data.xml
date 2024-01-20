@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.2.0
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Jun 05, 2022 at 04:35 PM
+- Server version: 10.4.24-MariaDB
+- PHP Version: 8.1.6
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="hotel_data" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="category">
+                CREATE TABLE `category` (
+                  `CategoryID` int(10) NOT NULL,
+                  `Label` varchar(20) NOT NULL,
+                  `Price` int(10) NOT NULL,
+                  PRIMARY KEY (`CategoryID`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+            <pma:table name="guests">
+                CREATE TABLE `guests` (
+                  `ID` varchar(10) NOT NULL,
+                  `Name` varchar(20) NOT NULL,
+                  `Family` varchar(20) NOT NULL,
+                  `RoomID` int(5) NOT NULL,
+                  `Phone` varchar(11) NOT NULL,
+                  `City` varchar(20) NOT NULL,
+                  PRIMARY KEY (`ID`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+            <pma:table name="reservations">
+                CREATE TABLE `reservations` (
+                  `ReserveID` int(10) NOT NULL AUTO_INCREMENT,
+                  `GuestID` int(10) NOT NULL,
+                  `RoomNo` varchar(10) NOT NULL,
+                  `DateIn` date NOT NULL,
+                  `DateOut` date NOT NULL,
+                  PRIMARY KEY (`ReserveID`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+            <pma:table name="room">
+                CREATE TABLE `room` (
+                  `RoomID` int(5) NOT NULL,
+                  `RoomType` int(5) NOT NULL,
+                  `RoomPhone` int(15) NOT NULL,
+                  `RoomStatus` varchar(10) NOT NULL,
+                  PRIMARY KEY (`RoomID`),
+                  KEY `RoomType` (`RoomType`),
+                  CONSTRAINT `room_ibfk_1` FOREIGN KEY (`RoomType`) REFERENCES `category` (`CategoryID`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+            <pma:table name="users">
+                CREATE TABLE `users` (
+                  `id` int(11) NOT NULL,
+                  `username` varchar(20) NOT NULL,
+                  `password` varchar(20) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'hotel_data'
+    -->
+    <database name="hotel_data">
+        <!-- Table category -->
+        <table name="category">
+            <column name="CategoryID">1</column>
+            <column name="Label">یک تخته</column>
+            <column name="Price">1000</column>
+        </table>
+        <table name="category">
+            <column name="CategoryID">2</column>
+            <column name="Label">دو تخته</column>
+            <column name="Price">1500</column>
+        </table>
+        <table name="category">
+            <column name="CategoryID">3</column>
+            <column name="Label">خانواده</column>
+            <column name="Price">2000</column>
+        </table>
+        <table name="category">
+            <column name="CategoryID">4</column>
+            <column name="Label">سوئیت</column>
+            <column name="Price">3000</column>
+        </table>
+        <!-- Table guests -->
+        <table name="guests">
+            <column name="ID">0123456789</column>
+            <column name="Name">سید امیر پارسا</column>
+            <column name="Family">نصیری</column>
+            <column name="RoomID">0</column>
+            <column name="Phone">09362967921</column>
+            <column name="City">تهران</column>
+        </table>
+        <table name="guests">
+            <column name="ID">0123456790</column>
+            <column name="Name">محمد</column>
+            <column name="Family">رضایی</column>
+            <column name="RoomID">0</column>
+            <column name="Phone">09121234566</column>
+            <column name="City">همدان</column>
+        </table>
+        <table name="guests">
+            <column name="ID">0123456791</column>
+            <column name="Name">امیر احمد</column>
+            <column name="Family">کریمی</column>
+            <column name="RoomID">0</column>
+            <column name="Phone">09121234565</column>
+            <column name="City">تبریز</column>
+        </table>
+        <table name="guests">
+            <column name="ID">0123456793</column>
+            <column name="Name">ترانه</column>
+            <column name="Family">سروری</column>
+            <column name="RoomID">0</column>
+            <column name="Phone">09382567894</column>
+            <column name="City">ساری</column>
+        </table>
+        <table name="guests">
+            <column name="ID">0123456794</column>
+            <column name="Name">اسماعیل</column>
+            <column name="Family">سعیدی</column>
+            <column name="RoomID">0</column>
+            <column name="Phone">09397896461</column>
+            <column name="City">اصفهان</column>
+        </table>
+        <table name="guests">
+            <column name="ID">0123456795</column>
+            <column name="Name">شهرزاد</column>
+            <column name="Family">خدادوست</column>
+            <column name="RoomID">0</column>
+            <column name="Phone">09127834215</column>
+            <column name="City">یزد</column>
+        </table>
+        <table name="guests">
+            <column name="ID">0123456796</column>
+            <column name="Name">هدی</column>
+            <column name="Family">حسینی</column>
+            <column name="RoomID">0</column>
+            <column name="Phone">09361297692</column>
+            <column name="City">تهران</column>
+        </table>
+        <table name="guests">
+            <column name="ID">0123456797</column>
+            <column name="Name">سپهر</column>
+            <column name="Family">عطایی</column>
+            <column name="RoomID">0</column>
+            <column name="Phone">09912257836</column>
+            <column name="City">اصفهان</column>
+        </table>
+        <table name="guests">
+            <column name="ID">0123456798</column>
+            <column name="Name">سپیده</column>
+            <column name="Family">اشرفی</column>
+            <column name="RoomID">0</column>
+            <column name="Phone">09922247621</column>
+            <column name="City">تهران</column>
+        </table>
+        <table name="guests">
+            <column name="ID">0123456799</column>
+            <column name="Name">شیوا</column>
+            <column name="Family">رمضانی</column>
+            <column name="RoomID">0</column>
+            <column name="Phone">09125876690</column>
+            <column name="City">چالوس</column>
+        </table>
+        <table name="guests">
+            <column name="ID">0123456800</column>
+            <column name="Name">اسحاق</column>
+            <column name="Family">اسفندیار</column>
+            <column name="RoomID">0</column>
+            <column name="Phone">09128371213</column>
+            <column name="City">تهران</column>
+        </table>
+        <table name="guests">
+            <column name="ID">0123456801</column>
+            <column name="Name">محمدرضا</column>
+            <column name="Family">فرقانی</column>
+            <column name="RoomID">0</column>
+            <column name="Phone">09148500769</column>
+            <column name="City">سراب</column>
+        </table>
+        <table name="guests">
+            <column name="ID">0123456802</column>
+            <column name="Name">سیاوش</column>
+            <column name="Family">ناصری</column>
+            <column name="RoomID">0</column>
+            <column name="Phone">09217452601</column>
+            <column name="City">مهران</column>
+        </table>
+        <table name="guests">
+            <column name="ID">0123456803</column>
+            <column name="Name">فاطمه</column>
+            <column name="Family">اسدی</column>
+            <column name="RoomID">40</column>
+            <column name="Phone">09037942827</column>
+            <column name="City">اراک</column>
+        </table>
+        <table name="guests">
+            <column name="ID">0123456804</column>
+            <column name="Name">مهران</column>
+            <column name="Family">محمدی نژاد</column>
+            <column name="RoomID">90</column>
+            <column name="Phone">09121020365</column>
+            <column name="City">کازرون</column>
+        </table>
+        <!-- Table reservations -->
+        <!-- Table room -->
+        <table name="room">
+            <column name="RoomID">10</column>
+            <column name="RoomType">2</column>
+            <column name="RoomPhone">42501</column>
+            <column name="RoomStatus">خالی</column>
+        </table>
+        <table name="room">
+            <column name="RoomID">20</column>
+            <column name="RoomType">2</column>
+            <column name="RoomPhone">42502</column>
+            <column name="RoomStatus">خالی</column>
+        </table>
+        <table name="room">
+            <column name="RoomID">30</column>
+            <column name="RoomType">1</column>
+            <column name="RoomPhone">42503</column>
+            <column name="RoomStatus">خالی</column>
+        </table>
+        <table name="room">
+            <column name="RoomID">40</column>
+            <column name="RoomType">1</column>
+            <column name="RoomPhone">42504</column>
+            <column name="RoomStatus">پر</column>
+        </table>
+        <table name="room">
+            <column name="RoomID">50</column>
+            <column name="RoomType">3</column>
+            <column name="RoomPhone">42505</column>
+            <column name="RoomStatus">پر</column>
+        </table>
+        <table name="room">
+            <column name="RoomID">60</column>
+            <column name="RoomType">3</column>
+            <column name="RoomPhone">42506</column>
+            <column name="RoomStatus">پر</column>
+        </table>
+        <table name="room">
+            <column name="RoomID">80</column>
+            <column name="RoomType">3</column>
+            <column name="RoomPhone">42508</column>
+            <column name="RoomStatus">خالی</column>
+        </table>
+        <table name="room">
+            <column name="RoomID">90</column>
+            <column name="RoomType">4</column>
+            <column name="RoomPhone">42509</column>
+            <column name="RoomStatus">پر</column>
+        </table>
+        <table name="room">
+            <column name="RoomID">100</column>
+            <column name="RoomType">4</column>
+            <column name="RoomPhone">42510</column>
+            <column name="RoomStatus">خالی</column>
+        </table>
+        <table name="room">
+            <column name="RoomID">110</column>
+            <column name="RoomType">1</column>
+            <column name="RoomPhone">42511</column>
+            <column name="RoomStatus">خالی</column>
+        </table>
+        <!-- Table users -->
+        <table name="users">
+            <column name="id">1</column>
+            <column name="username">Admin</column>
+            <column name="password">admin</column>
+        </table>
+    </database>
+</pma_xml_export>

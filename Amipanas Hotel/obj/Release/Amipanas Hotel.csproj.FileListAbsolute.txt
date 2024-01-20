@@ -1,0 +1,55 @@
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\Amipanas Hotel.exe.config
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\Amipanas Hotel.exe
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\Amipanas Hotel.pdb
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\Guna.UI2.dll
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\MySql.Data.dll
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\Google.Protobuf.dll
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\ZstdNet.dll
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\K4os.Compression.LZ4.Streams.dll
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\BouncyCastle.Crypto.dll
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\Ubiety.Dns.Core.dll
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\System.Memory.dll
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\System.Buffers.dll
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\K4os.Compression.LZ4.dll
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\K4os.Hash.xxHash.dll
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\MySql.Data.xml
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas Hotel.csproj.AssemblyReference.cache
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas Hotel.csproj.SuggestedBindingRedirects.cache
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas Hotel.exe.config
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas_Hotel.GuestsForm.resources
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas_Hotel.login_form.resources
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas_Hotel.MainForm.resources
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas_Hotel.Properties.Resources.resources
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas Hotel.csproj.GenerateResource.cache
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas Hotel.csproj.CoreCompileInputs.cache
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas Hotel.csproj.CopyComplete
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas Hotel.exe
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas Hotel.pdb
+D:\دانشگاه\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas_Hotel.RoomsForm.resources
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\Amipanas Hotel.exe.config
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\Amipanas Hotel.exe
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\Amipanas Hotel.pdb
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\Guna.UI2.dll
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\Google.Protobuf.dll
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\ZstdNet.dll
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\K4os.Compression.LZ4.Streams.dll
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\BouncyCastle.Crypto.dll
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\Ubiety.Dns.Core.dll
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\System.Memory.dll
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\System.Buffers.dll
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\K4os.Compression.LZ4.dll
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\K4os.Hash.xxHash.dll
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\bin\Release\MySql.Data.xml
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas Hotel.csproj.AssemblyReference.cache
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas Hotel.csproj.SuggestedBindingRedirects.cache
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas Hotel.exe.config
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas_Hotel.GuestsForm.resources
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas_Hotel.login_form.resources
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas_Hotel.MainForm.resources
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas_Hotel.Properties.Resources.resources
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas_Hotel.RoomsForm.resources
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas Hotel.csproj.GenerateResource.cache
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas Hotel.csproj.CoreCompileInputs.cache
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas Hotel.csproj.CopyComplete
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas Hotel.exe
+D:\دانشگاه تبریز\Subjects\Database\project\Amipanas Hotel\Amipanas Hotel\obj\Release\Amipanas Hotel.pdb
